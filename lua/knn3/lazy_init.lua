@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	spec = "qvd808.lazy",
+	spec = "knn3.lazy",
 	change_detection = { notify = false }
 })
